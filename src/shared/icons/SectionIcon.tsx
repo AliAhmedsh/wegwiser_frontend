@@ -1,0 +1,24 @@
+import React from "react";
+
+type SectionIconProps = {
+  color?: string;
+  size?: number;
+  className?: string;
+};
+
+const SectionIcon: React.FC<SectionIconProps> = ({
+  color = "currentColor",
+  size = 24,
+  className = "",
+}) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 10 10" fill="none" className={className}>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.263155C0 0.117816 0.117818 0 0.263155 0H9.73685C9.88218 0 10 0.117818 10 0.263155V9.73684C10 9.88218 9.88218 10 9.73685 10H0.263155C0.117815 10 0 9.88218 0 9.73684V0.263155ZM0.52631 0.52631V9.47349H9.47349V0.52631H0.52631Z" fill={color}/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.31592 2.89499C6.31592 2.74965 6.43374 2.63184 6.57907 2.63184H9.73689C9.88223 2.63184 10 2.74965 10 2.89499V9.73688C10 9.88222 9.88222 10 9.73689 10H6.57907C6.43373 10 6.31592 9.88221 6.31592 9.73688V2.89499ZM6.84223 3.15815V9.47377H9.47378V3.15815H6.84223Z" fill={color}/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.15771 2.89499C3.15771 2.74965 3.27553 2.63184 3.42087 2.63184H6.57868C6.72393 2.63184 6.84184 2.74965 6.84184 2.89499V9.73688C6.84184 9.88222 6.72392 10 6.57868 10H3.42087C3.27553 10 3.15771 9.88221 3.15771 9.73688V2.89499ZM3.68403 3.15815V9.47377H6.31558V3.15815H3.68403Z" fill={color}/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.263155C0 0.117816 0.117818 0 0.263155 0H9.73685C9.88218 0 10 0.117818 10 0.263155V2.89471C10 3.04005 9.88218 3.15786 9.73685 3.15786H0.263155C0.117815 3.15786 0 3.04005 0 2.89471V0.263155ZM0.52631 0.52631V2.63158H9.47349V0.52631H0.52631Z" fill={color}/>
+    </svg>
+  );
+};
+
+export default SectionIcon;

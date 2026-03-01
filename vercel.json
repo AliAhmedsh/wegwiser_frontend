@@ -1,0 +1,10 @@
+{
+  "env": {
+    "NEXT_PUBLIC_AUTH0_DOMAIN": "dev-7yf0quijjygyy5p0.us.auth0.com"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_AUTH0_DOMAIN": "dev-7yf0quijjygyy5p0.us.auth0.com"
+    }
+  }
+}

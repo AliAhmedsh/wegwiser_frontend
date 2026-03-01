@@ -1,0 +1,123 @@
+{/* <div className="grid grid-cols-[200px_1fr] gap-4 flex-1">
+              <div>
+              <Tabs
+                tabs={tabs}
+                currentTab={currentTab}
+                onTabChange={handleTabChange}
+                onTabClose={handleCloseTab}
+              />
+              <div className="h-full bg-[#F5F6FA] flex flex-col">
+                <CodeEditor />
+              </div>
+              </div>
+              <div className='grid grid-cols-[1fr_240px] rounded-t-2xl overflow-hidden bg-white'>
+                <div className='rounded-none'>
+                    {isFilesPreviewTab ? (
+                    <AIPartner
+                      width="100%"
+                      isResizing={false}
+                      prompt={prompt}
+                      onPromptChange={setPrompt}
+                      onSubmit={handlePromptSend}
+                    />
+                  ) : (
+                    <Console />
+                  )}
+                </div>
+                
+                {!aiCollapsed && !isFilesPreviewTab && (
+                  <AIPartner
+                    width="100%"
+                    isResizing={false}
+                    prompt={prompt}
+                    onPromptChange={setPrompt}
+                    onSubmit={handlePromptSend}
+                  />
+                )}
+
+              </div>
+            </div> */}
+        </div>
+
+      </div>
+
+      {/* <ResizablePanelGroup direction="horizontal" className="h-full w-full">
+        <ResizablePanel
+          defaultSize={isFilesPreviewTab ? 25 : 18}
+          minSize={isFilesPreviewTab ? 35 : 18}
+          maxSize={isFilesPreviewTab ? 45 : 25}
+          className="bg-white pr-2 overflow-y-auto flex flex-row gap-4 relative h-[calc(100%-65px)]"
+        >
+          
+
+          <div className="flex flex-col w-full h-full">
+            <div className="flex items-center justify-between">
+              <PanelHeader activeTab={activeSidebarTab} />
+              <div className="flex items-center gap-2 mr-2">
+                <button className="flex justify-center items-center w-6 h-6 rounded-sm hover:bg-gray-200 cursor-pointer">
+                  <PlayIcon width={24} className="text-[#343330]" />
+                </button>
+                <button
+                  className={`flex justify-center items-center w-6 h-6 rounded-sm hover:bg-gray-200 cursor-pointer ${
+                    !aiCollapsed && 'bg-gray-300'
+                  }`}
+                  onClick={() => setAiCollapsed(!aiCollapsed)}
+                >
+                  <SideBarIcon height={24} className="text-[#343330]" />
+                </button>
+              </div>
+            </div>
+
+            {sidebarPanels[activeSidebarTab] ?? null}
+          </div>
+        </ResizablePanel>
+
+        <ResizablePanel defaultSize={30} minSize={20}>
+          <ResizablePanelGroup direction="vertical" className="flex-1">
+            <ResizablePanel defaultSize={70} minSize={30}>
+              <Tabs
+                tabs={tabs}
+                currentTab={currentTab}
+                onTabChange={handleTabChange}
+                onTabClose={handleCloseTab}
+              />
+              <div className="h-full bg-[#F5F6FA] flex flex-col">
+                <CodeEditor />
+              </div>
+            </ResizablePanel>
+
+            <ResizablePanel
+              defaultSize={isFilesPreviewTab ? 45 : 30}
+              minSize={isFilesPreviewTab ? 35 : 20}
+            >
+              {isFilesPreviewTab ? (
+                <AIPartner
+                  width="100%"
+                  isResizing={false}
+                  prompt={prompt}
+                  onPromptChange={setPrompt}
+                  onSubmit={handlePromptSend}
+                />
+              ) : (
+                <Console />
+              )}
+            </ResizablePanel>
+          </ResizablePanelGroup>
+        </ResizablePanel>
+
+        <ResizablePanel
+          defaultSize={isFilesPreviewTab ? 0 : 15}
+          minSize={isFilesPreviewTab ? 0 : 15}
+          maxSize={isFilesPreviewTab ? 0 : 40}
+        >
+          {!aiCollapsed && !isFilesPreviewTab && (
+            <AIPartner
+              width="100%"
+              isResizing={false}
+              prompt={prompt}
+              onPromptChange={setPrompt}
+              onSubmit={handlePromptSend}
+            />
+          )}
+        </ResizablePanel>
+      </ResizablePanelGroup> */}

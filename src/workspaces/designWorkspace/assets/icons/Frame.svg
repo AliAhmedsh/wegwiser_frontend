@@ -1,0 +1,12 @@
+<!--<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">-->
+<!--    <path d="M4.97615 12.9276L4.97434 2.83824" stroke="currentColor" stroke-opacity="0.7" stroke-width="1.1561" stroke-linecap="round"/>-->
+<!--    <path d="M10.7926 12.9276L10.7907 2.83824" stroke="currentColor" stroke-opacity="0.7" stroke-width="1.1561" stroke-linecap="round"/>-->
+<!--    <path d="M2.83901 4.97615L12.9284 4.97434" stroke="currentColor" stroke-opacity="0.7" stroke-width="1.1561" stroke-linecap="round"/>-->
+<!--    <path d="M2.83901 10.7916L12.9284 10.7898" stroke="currentColor" stroke-opacity="0.7" stroke-width="1.1561" stroke-linecap="round"/>-->
+<!--</svg>-->
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.97615 10.9276L2.97434 0.838239" stroke="currentColor" stroke-opacity="0.9" stroke-width="1.1561" stroke-linecap="round"/>
+<path d="M8.79256 10.9276L8.79075 0.838239" stroke="currentColor" stroke-opacity="0.9" stroke-width="1.1561" stroke-linecap="round"/>
+<path d="M0.839009 2.97615L10.9284 2.97434" stroke="currentColor" stroke-opacity="0.9" stroke-width="1.1561" stroke-linecap="round"/>
+<path d="M0.839009 8.79158L10.9284 8.78977" stroke="currentColor" stroke-opacity="0.9" stroke-width="1.1561" stroke-linecap="round"/>
+</svg>

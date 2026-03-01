@@ -1,5 +1,5 @@
-import { EfficiencyCharts } from './../vehicle/types';
-import { CapacityProps } from './../vehicle/types';
+import { EfficiencyCharts } from '../vehicle/types';
+import { CapacityProps } from '../vehicle/types';
 
 export interface CreateWorkerDto {
   image: string;
